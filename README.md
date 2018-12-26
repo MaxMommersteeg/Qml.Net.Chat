@@ -4,8 +4,8 @@ Containing client and server project. Communication with [ASP.NET Core SignalR](
 
 ## Running the app
 1. Clone this repo
-2. Run `run_server.bat`
-3. Run `run_client.bat` (one or multiple times)
+2. Run `run_server.bat` / `run_server.sh`
+3. Run `run_client.bat` / `run_client.sh` (one or multiple times)
 
 ## Impression
 
