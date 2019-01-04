@@ -10,3 +10,9 @@ Containing client and server project. Communication with [ASP.NET Core SignalR](
 ## Impression
 
 ![Clients](assets/Clients.png)
+
+# Related projects
+
+- [Qml.Net](https://github.com/qmlnet/qmlnet) - Qt/QML integration/support for .NET
+- [Qml.Net.Examples](https://github.com/qmlnet/qmlnet-examples) - Example projects for Qml.Net
+- [Qml.Net.TodoApp](https://github.com/MaxMommersteeg/Qml.Net.TodoApp) - A simple todo app written using Qml.Net
