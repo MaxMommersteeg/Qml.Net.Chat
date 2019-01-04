@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <TieredCompilation>true</TieredCompilation>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RunWorkingDirectory>$(MSBuildProjectDirectory)</RunWorkingDirectory>
     <AssemblyName>Chat.Client</AssemblyName>
