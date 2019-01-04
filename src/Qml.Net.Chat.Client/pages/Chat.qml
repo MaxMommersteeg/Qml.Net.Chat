@@ -7,6 +7,8 @@ import ChatClient 1.0
 ScrollablePage {
 	id: scrollPage
 
+	width: parent.width
+
     ColumnLayout {
         width: parent.width
 
