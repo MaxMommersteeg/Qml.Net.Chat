@@ -1,4 +1,5 @@
 ﻿using Qml.Net;
+using Qml.Net.Runtimes;
 
 namespace Chat.Client.Controllers
 {
@@ -6,6 +7,8 @@ namespace Chat.Client.Controllers
     {
         public static int Main(string[] args)
         {
+            RuntimeManager.DiscoverOrDownloadSuitableQtRuntime();
+            
             QQuickStyle.SetStyle("Material");
 
             using (var application = new QGuiApplication(args))
