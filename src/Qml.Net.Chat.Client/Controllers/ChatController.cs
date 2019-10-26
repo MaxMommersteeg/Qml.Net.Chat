@@ -72,7 +72,9 @@ namespace Chat.Client.Controllers
         private void AddChatMessage(ChatMessage chatMessage)
         {
             ChatMessages.Add(chatMessage);
-            this.ActivateSignal("chatMessagesChanged");
+            this.ActivateNotifySignal(nameof(ChatMessages));
+            // or
+            // this.ActivateProperty(o => o.ChatMessages);
         }
     }
 }
